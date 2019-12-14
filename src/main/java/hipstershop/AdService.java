@@ -51,6 +51,7 @@ import org.apache.logging.log4j.Logger;
 
 public final class AdService {
 
+  // need a code review?
   private static final Logger logger = LogManager.getLogger(AdService.class);
   private static final Tracer tracer = Tracing.getTracer();
 
